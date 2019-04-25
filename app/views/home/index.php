@@ -44,21 +44,6 @@
 		    </tr>
 		  </thead>
 		  <tbody>
-
-<!-- 		<?php
-			foreach ($data['all']->Search as $key => $value) {
-		?>
-		    <tr>
-		      <td scope="row"> <?php echo $value->Title; ?> </td>
-		      <td><?php echo $value->Year; ?></td>
-		      <td><?php echo $value->Type; ?></td>
-		      <td>
-		      <?php echo ($value->Poster == 'N/A' ? '' : '<img src="'.$value->Poster.'" width="80">'); ?></td>
-		    </tr>
-
-		<?php
-			}
-		?> -->
 		  </tbody>
 		</table>
 	</div>

@@ -33,7 +33,6 @@ $("document").ready(function(){
 		                    "<td>" + Type + "</td>" +
 		                    "<td>" + Poster + "</td>" +
 		                    "</tr>";
-
 		                $("#userTable tbody").append(tr_str);
 		            }
 	        	}

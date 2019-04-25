@@ -5,12 +5,10 @@ use GuzzleHttp\Client;
 
 class User extends Eloquent
 {
-
 	protected $fillable = ['username', 'email'];
 
 	public function get_all($film){
 	$client = new Client([
-	    // You can set any number of default request options.
 	    'timeout'  => 2.0,
 	]);
 
@@ -21,8 +19,6 @@ class User extends Eloquent
 	if($response->getBody()){
 		$data = json_decode($response->getBody());
 	}
-
-		//$data = User::all();
 		return $data;
 	}
 }
